@@ -5,4 +5,6 @@ const app = http.createServer((request, response) => {
   } else if (request.url === "/b") response.write("Api B is invoked");
   response.end();
 });
-app.listen(4000, () => console.log("Simple Node server created"));
+app.listen(process.env.PORT || 3000, () =>
+  console.log("Simple Node server created")
+);

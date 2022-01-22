@@ -5,4 +5,6 @@ router.get("/a", (_request, response) =>
   response.send("api a is invoked from express")
 );
 app.use(router);
-app.listen(4000, () => console.log("Simple Express server created"));
+app.listen(process.env.PORT || 3000, () =>
+  console.log("Simple Express server created")
+);

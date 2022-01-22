@@ -8,4 +8,6 @@ const router = new Router();
 router.get("/a", (context) => (context.response.body = "Koa api is invoked"));
 
 app.use(router.routes());
-app.listen(4000, () => console.log("Simple KOA server created"));
+app.listen(process.env.PORT || 3000, () =>
+  console.log("Simple KOA server created")
+);
