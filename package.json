@@ -6,7 +6,8 @@
   "scripts": {
     "simpleNode": "ts-node-dev simpleNode.ts",
     "simpleExpress": "ts-node-dev simpleExpress.ts",
-    "simpleKoa": "ts-node-dev simpleKoa.ts"
+    "simpleKoa": "ts-node-dev simpleKoa.ts",
+    "start": "ts-node-dev simpleKoa.ts"
   },
   "author": "",
   "license": "ISC",
