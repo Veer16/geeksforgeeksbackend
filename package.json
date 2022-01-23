@@ -7,7 +7,10 @@
     "simpleNode": "ts-node-dev simpleNode.ts",
     "simpleExpress": "ts-node-dev simpleExpress.ts",
     "simpleKoa": "ts-node-dev simpleKoa.ts",
-    "start": "ts-node-dev simpleKoa.ts"
+    "start": "ts-node-dev simpleKoa.ts",
+    "simpleDb": "ts-node-dev simpleDb.ts",
+    "simpleOrm": "ts-node-dev simpleOrm.ts",
+    "simpleGraphql": "ts-node-dev simpleGraphql.ts"
   },
   "author": "",
   "license": "ISC",
@@ -23,7 +26,12 @@
     "pg": "^8.6.0",
     "ts-node-dev": "^1.1.6",
     "typeorm": "^0.2.34",
-    "typescript": "^4.3.2"
+    "typescript": "^4.3.2",
+    "graphql": "^15.8.0",
+    "graphql-middleware": "^6.1.13",
+    "graphql-tools": "^8.2.0",
+    "type-graphql": "^1.1.1",
+    "koa-graphql": "^0.12.0"
   },
   "devDependencies": {
     "@types/node": "^16.11.0"
