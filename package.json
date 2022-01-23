@@ -1,16 +1,16 @@
 {
   "name": "gfgbackend",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "simpleNode": "ts-node-dev simpleNode.ts",
     "simpleExpress": "ts-node-dev simpleExpress.ts",
     "simpleKoa": "ts-node-dev simpleKoa.ts",
-    "start": "ts-node-dev simpleKoa.ts",
     "simpleDb": "ts-node-dev simpleDb.ts",
     "simpleOrm": "ts-node-dev simpleOrm.ts",
-    "simpleGraphql": "ts-node-dev simpleGraphql.ts"
+    "simpleGraphql": "ts-node-dev simpleGraphql.ts",
+    "start": "ts-node-dev simpleGraphql.ts"
   },
   "author": "",
   "license": "ISC",
