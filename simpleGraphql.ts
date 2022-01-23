@@ -26,6 +26,8 @@ async function main() {
   //enabling cors in backend
 
   app.use(cors());
-  app.listen(4000, () => console.log("Simple KOA GRAPHQL server created"));
+  app.listen(process.env.PORT || 4000, () =>
+    console.log("Simple KOA GRAPHQL server created")
+  );
 }
 main();
